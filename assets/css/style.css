@@ -80,16 +80,16 @@
 	z-index: 1;
 }
 
-/*.content .img img {
+.content .img img {
 	animation: bounce 1s ease-in-out infinite alternate;
-}*/
+}
 
 @keyframes bounce {
     0% {
-      transform: translateY(-10px);
+      transform: translateY(-2px);
     }
     100% {
-      transform: translateY(10px);
+      transform: translateY(2px);
     }
 }
 
